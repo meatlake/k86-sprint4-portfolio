@@ -4,7 +4,7 @@ import React from "react";
 import { useState } from "react";
 import { quizQuestions } from "../quizQuestions";
 
-const page = () => {
+const Page = () => {
   const [countCoder, setCountCoder] = useState(0);
   const [countAnimator, setCountAnimator] = useState(0);
   const [countArtist, setCountArtist] = useState(0);
@@ -102,4 +102,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
